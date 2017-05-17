@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RCTools'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'RCTools'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WuTengWei' => '15239184251@126.com' }
-  s.source           = { :git => 'https://github.com/WuTengWei/RCTools.git', :tag => "v0.1.0" }
+  s.source           = { :git => 'https://github.com/WuTengWei/RCTools.git', :tag => "v0.1.1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

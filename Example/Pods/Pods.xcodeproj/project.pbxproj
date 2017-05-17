@@ -10,14 +10,16 @@
 		0101192054F1261B9F5A9FAD120D511E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0EEAFC90734C04CEF480A8F58057F49F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		18EF95AA6DBF200DC98CEA908A512199 /* Pods-RCTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F92541FC8CC670B7F2B0D3C38B45BA1 /* Pods-RCTools_Tests-dummy.m */; };
-		5991FD045D2FB83CEE0CA7754A751CCE /* NSObject+instance.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F2F091870A23F1325F044F9AF566B1 /* NSObject+instance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C262C61D3F6A7485094BF132C97C40B /* RCTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A20D65BAFAF12295C75AFE2830E2DDD /* RCTools-dummy.m */; };
+		3D6443A92A663859AD90104DE0BDA5C4 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD96634B4A5DBF21DDC3B23F1FE6895 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B8C0FA853BA8969645629D0D203023 /* RCTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A20D65BAFAF12295C75AFE2830E2DDD /* RCTools-dummy.m */; };
+		5F15CF43E12EE98CDE62659332D9DB9D /* RCTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AA386FDEBB0813B2E3AF2C89B7C67E /* RCTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DEDCDEC9CB1386AFD8CCA5467F6ACD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A31C97F427C6907FCCAB7C3BF707EE1A /* RCTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AA386FDEBB0813B2E3AF2C89B7C67E /* RCTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9B8F21AA22001A277AA0C9D8AA80C9B /* Pods-RCTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 462FAEBFF9145BC816AB0790B702ED5E /* Pods-RCTools_Example-dummy.m */; };
+		ADD121C3B2CF1D3E41FEC2B45BC62231 /* NSObject+instance.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0831C17C228825C4168A34887F7C95 /* NSObject+instance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA9A1C8EEC30E52EFBA828E2E40FB33A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FA04B29FB0F61714EF257715AB468B /* UIView+Extension.m */; };
 		E2742AD2781B455640CFFC6A6A3B308C /* Pods-RCTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF69C9008DDC343F1ACD9F5E791058 /* Pods-RCTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E338354CA36780D0DF0C852A36187ADC /* NSObject+instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D0F2FDCDCD8246A4FDACB2D7814CCD /* NSObject+instance.m */; };
 		EE3B591F7586F006F9C2497ECB658D4D /* Pods-RCTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4675329C7B1599EA079D250B27B596 /* Pods-RCTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFA37255C7A9CA396AAD429A46D56298 /* NSObject+instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA0CEF7D55B86E2230CED07594FB13 /* NSObject+instance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FA04B29FB0F61714EF257715AB468B /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		09FF54FED5B33FE719B9CDA27E54AD48 /* Pods-RCTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		183B747F98CB21735DA76110A3665358 /* Pods-RCTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6D0D7EBC8DC9F7EF198BFF181B8BDA /* Pods_RCTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCTools_Example.framework; path = "Pods-RCTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F92541FC8CC670B7F2B0D3C38B45BA1 /* Pods-RCTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		2BB1423F2593252B00877F9BB018A92E /* Pods-RCTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		30CA0CEF7D55B86E2230CED07594FB13 /* NSObject+instance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+instance.m"; sourceTree = "<group>"; };
 		32AA386FDEBB0813B2E3AF2C89B7C67E /* RCTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTools-umbrella.h"; sourceTree = "<group>"; };
 		360E2E21232B3E31AFC3B610742CC6D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D0F2FDCDCD8246A4FDACB2D7814CCD /* NSObject+instance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+instance.m"; sourceTree = "<group>"; };
 		462FAEBFF9145BC816AB0790B702ED5E /* Pods-RCTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCTools_Example-dummy.m"; sourceTree = "<group>"; };
 		4F4675329C7B1599EA079D250B27B596 /* Pods-RCTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		51A159EC26CEB5B7A2D49085C3FB4BBA /* Pods-RCTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,18 +54,19 @@
 		7A20D65BAFAF12295C75AFE2830E2DDD /* RCTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTools-dummy.m"; sourceTree = "<group>"; };
 		81A37C8BCF991A9DC1358763D840C5DA /* Pods-RCTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		90861EE6D543417A5FE17BD5C6FC0B78 /* Pods-RCTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		90F2F091870A23F1325F044F9AF566B1 /* NSObject+instance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+instance.h"; sourceTree = "<group>"; };
 		91A69172FDC6C47827141F1FE560CC13 /* RCTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTools-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ADC24BC5098404885EBA5E472F17BB7 /* Pods_RCTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCTools_Tests.framework; path = "Pods-RCTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9AEA48F35CB23EBC14D037C5B52086 /* RCTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTools.modulemap; sourceTree = "<group>"; };
 		A710FB844667BF4CD512046E7BF7AB87 /* Pods-RCTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B21734A1A9AB508FD2C4ACBB4BFCB2B5 /* Pods-RCTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RCTools_Tests.modulemap"; sourceTree = "<group>"; };
+		BDD96634B4A5DBF21DDC3B23F1FE6895 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		C03588182686CFCE9260DA55F0251170 /* RCTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCTools.framework; path = RCTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7E9AE02E0DD60DA5953FC999EEA39A /* Pods-RCTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RCTools_Example.modulemap"; sourceTree = "<group>"; };
 		E09977FBE8EDC96692459A76D369AC94 /* Pods-RCTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5D4E109A12BC0F30E6A375E28C79175 /* Pods-RCTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA94D1709080FD29478E468CF9FE30CC /* Pods-RCTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTools_Example-resources.sh"; sourceTree = "<group>"; };
+		EF0831C17C228825C4168A34887F7C95 /* NSObject+instance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+instance.h"; sourceTree = "<group>"; };
 		F9B7C5A167EC892A3610035412458B68 /* Pods-RCTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +101,7 @@
 		0F29548F9167E4DEE9888BA80A4687A2 /* RCTools */ = {
 			isa = PBXGroup;
 			children = (
-				158B96977639BA57B83C3B9B1DFC6676 /* RCTools */,
+				AA817C1053A6D52F00843DD00F6DFD7B /* RCTools */,
 				1F752C056316C19244581976F4AA4285 /* Support Files */,
 			);
 			name = RCTools;
@@ -111,15 +115,6 @@
 				DCD7AF2F188E7288C3D811778AD0C011 /* Pods-RCTools_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		158B96977639BA57B83C3B9B1DFC6676 /* RCTools */ = {
-			isa = PBXGroup;
-			children = (
-				AAC6E58956B10893B20C9043DD7FD254 /* Classes */,
-			);
-			name = RCTools;
-			path = RCTools;
 			sourceTree = "<group>";
 		};
 		1F752C056316C19244581976F4AA4285 /* Support Files */ = {
@@ -155,6 +150,18 @@
 			);
 			sourceTree = "<group>";
 		};
+		7F601A3446E1F5E8DA4F7046077B3025 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF0831C17C228825C4168A34887F7C95 /* NSObject+instance.h */,
+				45D0F2FDCDCD8246A4FDACB2D7814CCD /* NSObject+instance.m */,
+				BDD96634B4A5DBF21DDC3B23F1FE6895 /* UIView+Extension.h */,
+				00FA04B29FB0F61714EF257715AB468B /* UIView+Extension.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		9D9034CB0F51651E0F74F36AEC762976 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,14 +172,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAC6E58956B10893B20C9043DD7FD254 /* Classes */ = {
+		AA817C1053A6D52F00843DD00F6DFD7B /* RCTools */ = {
 			isa = PBXGroup;
 			children = (
-				90F2F091870A23F1325F044F9AF566B1 /* NSObject+instance.h */,
-				30CA0CEF7D55B86E2230CED07594FB13 /* NSObject+instance.m */,
+				7F601A3446E1F5E8DA4F7046077B3025 /* Classes */,
 			);
-			name = Classes;
-			path = Classes;
+			name = RCTools;
+			path = RCTools;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -238,12 +244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC63549BD09DBB7A66BEAD03E8ED7940 /* Headers */ = {
+		8DEB5B37A0D189B702ED8F7CA738F23A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5991FD045D2FB83CEE0CA7754A751CCE /* NSObject+instance.h in Headers */,
-				A31C97F427C6907FCCAB7C3BF707EE1A /* RCTools-umbrella.h in Headers */,
+				ADD121C3B2CF1D3E41FEC2B45BC62231 /* NSObject+instance.h in Headers */,
+				5F15CF43E12EE98CDE62659332D9DB9D /* RCTools-umbrella.h in Headers */,
+				3D6443A92A663859AD90104DE0BDA5C4 /* UIView+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,9 +304,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D484AE49A2A5123599C46039F59C0D5A /* Build configuration list for PBXNativeTarget "RCTools" */;
 			buildPhases = (
-				FC8E379EB58EB696EB0300ED79AEA402 /* Sources */,
+				8723154AD66F30D0642C895841419163 /* Sources */,
 				2BBB892E2A342F8C66CF26D572A911E4 /* Frameworks */,
-				BC63549BD09DBB7A66BEAD03E8ED7940 /* Headers */,
+				8DEB5B37A0D189B702ED8F7CA738F23A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -355,12 +362,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC8E379EB58EB696EB0300ED79AEA402 /* Sources */ = {
+		8723154AD66F30D0642C895841419163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA37255C7A9CA396AAD429A46D56298 /* NSObject+instance.m in Sources */,
-				7C262C61D3F6A7485094BF132C97C40B /* RCTools-dummy.m in Sources */,
+				E338354CA36780D0DF0C852A36187ADC /* NSObject+instance.m in Sources */,
+				52B8C0FA853BA8969645629D0D203023 /* RCTools-dummy.m in Sources */,
+				BA9A1C8EEC30E52EFBA828E2E40FB33A /* UIView+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

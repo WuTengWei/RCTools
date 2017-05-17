@@ -1,6 +1,6 @@
 {
   "name": "RCTools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "RCTools",
   "description": "long description of the pod here.",
   "homepage": "https://github.com/WuTengWei/RCTools",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WuTengWei/RCTools.git",
-    "tag": "0.1.0"
+    "tag": "v0.1.1"
   },
   "platforms": {
     "ios": "8.0"

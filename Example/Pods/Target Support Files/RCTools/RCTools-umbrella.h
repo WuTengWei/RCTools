@@ -11,6 +11,7 @@
 #endif
 
 #import "NSObject+instance.h"
+#import "UIView+Extension.h"
 
 FOUNDATION_EXPORT double RCToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char RCToolsVersionString[];
