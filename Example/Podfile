@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RCTools_Example' do
+  pod 'RCTools', :path => '../'
+
+  target 'RCTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
