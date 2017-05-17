@@ -1,0 +1,6 @@
+framework module RCTools {
+  umbrella header "RCTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
