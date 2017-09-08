@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/WuTengWei/RCTools'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WuTengWei' => '15239184251@126.com' }
-  s.source           = { :git => 'https://github.com/WuTengWei/RCTools.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/WuTengWei/RCTools.git', :tag => "v#{s.version}" }
   s.ios.deployment_target = '8.0'
   s.source_files = 'RCTools/Classes/**/*.{h,m}'
   s.requires_arc = true
