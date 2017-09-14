@@ -7,6 +7,7 @@
 //
 
 #import "RCViewController.h"
+#import "RCTools.h"
 
 @interface RCViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *testView = [UIView instance];
+    testView.backgroundColor = [UIColor redColor];
+    
+    testView.frame = CGRectMake(100, 100, 100, 100);
+    
+    [self.view addSubview:testView];
+    
+    
+    NSLog(@"%@  == %@  == %@",[testView getCurrentNavController],[testView getCurrentViewController],[testView getCurrentVC]);
 }
 
 - (void)didReceiveMemoryWarning

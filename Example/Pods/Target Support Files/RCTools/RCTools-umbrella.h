@@ -10,7 +10,10 @@
 #endif
 #endif
 
+#import "NSDictionary+log.h"
+#import "NSObject+RCInstance.h"
 #import "RCTools.h"
+#import "UIView+RCExtension.h"
 
 FOUNDATION_EXPORT double RCToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char RCToolsVersionString[];
