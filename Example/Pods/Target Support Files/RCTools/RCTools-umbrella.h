@@ -10,23 +10,7 @@
 #endif
 #endif
 
-#import "FZButton.h"
-#import "FZTextField.h"
-#import "NSAttributedString+Extension.h"
-#import "NSDate+Extension.h"
-#import "NSDictionary+FZParametersSign.h"
-#import "NSDictionary+log.h"
-#import "NSObject+instance.h"
-#import "NSString+Extension.h"
-#import "UIBarButtonItem+FZBarButtonItem.h"
-#import "UICollectionView+FZCategory.h"
-#import "UIColor+Extension.h"
-#import "UINavigationBar+Awesome.h"
-#import "UINavigationBar+Extension.h"
-#import "UITabBar+FZBage.h"
-#import "UIView+CornerRadius.h"
-#import "UIView+Extension.h"
-#import "UIViewController+FZNavigationBar.h"
+#import "RCTools.h"
 
 FOUNDATION_EXPORT double RCToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char RCToolsVersionString[];

@@ -8,48 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		0101192054F1261B9F5A9FAD120D511E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0BB857D066443FAF26B077B6B96967CC /* UIBarButtonItem+FZBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C42EE1A7716D4CDC8BB8DAD2F3EDBB8D /* UIBarButtonItem+FZBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EEAFC90734C04CEF480A8F58057F49F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0F02B3120352261B74E7DA9416DAB488 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ACF6F36CFEEC0BA8A343256B66C9EE /* UIColor+Extension.m */; };
 		11F33363BB4E4BB6F5C96644F2717339 /* NSDictionary+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F5CE9CF7D95A863A24DA4A7C1E5B /* NSDictionary+log.m */; };
-		1806713D0FA05142B6FBFD755B6B7132 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABE5F7072553428F13D25151BB8982F /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		122E76A0B8C07C923246F82070015BD8 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABE5F7072553428F13D25151BB8982F /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12B71B1304452DF6DEE0F433643588C1 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21534177CCDFBE365D6B477E9B7CBA8B /* UIView+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1489F4ABF5CFCA250EAD0ADB7A08C8C2 /* UIBarButtonItem+FZBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C42EE1A7716D4CDC8BB8DAD2F3EDBB8D /* UIBarButtonItem+FZBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		18EF95AA6DBF200DC98CEA908A512199 /* Pods-RCTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F92541FC8CC670B7F2B0D3C38B45BA1 /* Pods-RCTools_Tests-dummy.m */; };
-		1D0C7D36E2D2B3FFC72D755453534686 /* UIView+CornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 27253ABBD6E7FC38356AFB23388E1015 /* UIView+CornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21BC812514DD36768FD08790095611A8 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21534177CCDFBE365D6B477E9B7CBA8B /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AFB00F8D69FD2F7AE4DA9B5820C7FB7 /* UINavigationBar+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC49D24FFCB033CC4C5191F55E393A6 /* UINavigationBar+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F88992D353111F9544C85DA4BBD0F15 /* UIViewController+FZNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D599C25E35AF55DE5ED8AECEF56CEB /* UIViewController+FZNavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CECBEB44C46D1756E6256DCF4239E26 /* UIView+CornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 27253ABBD6E7FC38356AFB23388E1015 /* UIView+CornerRadius.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31CFC5229C22962327A24478DD35866A /* UICollectionView+FZCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDE157E52CB106678E660A4A1EAB6CC /* UICollectionView+FZCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4685A007977183C26B69D15300661AF4 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 269A5B83CE41F9A6847A40F88F876166 /* NSString+Extension.m */; };
-		47C565B190E19D9AD16BC7FD0584EC26 /* UINavigationBar+Awesome.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D379386AA2F90CF7CFA8B219A3416A /* UINavigationBar+Awesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4839E6BBE95D422B9536B35F1B33BAC9 /* NSAttributedString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = AC82AB5EEDB16765F719981B2B350C8D /* NSAttributedString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AC033341D9676EF7590CDD8378AD81D /* NSObject+instance.h in Headers */ = {isa = PBXBuildFile; fileRef = 642925561643F33DEBA44ADD9705C652 /* NSObject+instance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A5454D9D84A2A7EB77DCB0A298DFA1 /* FZTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0236B7FB95E00ECC0B3F6DE1265F2BD6 /* FZTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5AA81F635744DA95F1D31A82CC58B60E /* UICollectionView+FZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D0576A451EE86DF5EE572DD43A0EA91E /* UICollectionView+FZCategory.m */; };
 		5C20C22807040ED4F8BD6425FFFF5C66 /* FZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D52CF86A5ED4C8495EBF7B09AAD953C3 /* FZTextField.m */; };
-		5CB4C032F4C8F05C96AC9C8C9F989872 /* NSDictionary+log.h in Headers */ = {isa = PBXBuildFile; fileRef = 111088B196A5D644735721792608C086 /* NSDictionary+log.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69D05108A88CF1EF9C3920B52F58946C /* UIViewController+FZNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D599C25E35AF55DE5ED8AECEF56CEB /* UIViewController+FZNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B88AA6EF693B26D7B1533AEB81BA83 /* FZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 05575E21DD059A5FAC28D0ED30E2C203 /* FZButton.m */; };
 		77CBAC010126782BDB4612B748FCA09D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C852E8751ABDE5994BED8E6818055E /* UIView+Extension.m */; };
-		8D83AF25192534A0234F23A4B86D55C0 /* UICollectionView+FZCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDE157E52CB106678E660A4A1EAB6CC /* UICollectionView+FZCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92515B0701A16E831476480A9A261532 /* UITabBar+FZBage.h in Headers */ = {isa = PBXBuildFile; fileRef = 988C0E30EF882608B32A02249211A9CB /* UITabBar+FZBage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A6A9BDAF68D34B49E3E6EB637D3D4F /* UITabBar+FZBage.h in Headers */ = {isa = PBXBuildFile; fileRef = 988C0E30EF882608B32A02249211A9CB /* UITabBar+FZBage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		863FCD88D4044437DFC9790643D32D0F /* NSAttributedString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = AC82AB5EEDB16765F719981B2B350C8D /* NSAttributedString+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92D1B8B66E35DA55DFABEC3C66D498E7 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D076C287DE10B7FE2618AD5C500ED4 /* NSDate+Extension.m */; };
-		97EC17299AD7FB57C67F3ECAF9AD46BC /* NSDictionary+FZParametersSign.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D11CB5877FDFC3D98CD51498F03B779 /* NSDictionary+FZParametersSign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B9BFE3874C43DEE174176421B9CE3A5 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 095AB2DC01A0843E3399E7DCA9326AB7 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D5DF5260B7D5570334D2B327FD23D2C /* UIBarButtonItem+FZBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9260BF8EC08D4DAEF9EF5A2FFA85199B /* UIBarButtonItem+FZBarButtonItem.m */; };
 		9DEDCDEC9CB1386AFD8CCA5467F6ACD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A6DF8F225811E59640B27C6D484D7405 /* FZButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EEE78692D016FC8EC997ADCC2BB7A0 /* FZButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9B8F21AA22001A277AA0C9D8AA80C9B /* Pods-RCTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 462FAEBFF9145BC816AB0790B702ED5E /* Pods-RCTools_Example-dummy.m */; };
-		AF6685810C802F55535F3305998105B4 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E5B1BE59E93C952234A7EBC23696B5 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B49779C824351B55CAD8A751CC20636B /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 82515254750F445F04D826132B44B8C1 /* UIView+CornerRadius.m */; };
-		B52EA69C90BAE24EC20580CEF68D7F27 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 095AB2DC01A0843E3399E7DCA9326AB7 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA694E9E5B27A186BFBF9BBC5F1E6403 /* FZTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0236B7FB95E00ECC0B3F6DE1265F2BD6 /* FZTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDB064DCE0CC33B801A979F8E5C47452 /* NSDictionary+FZParametersSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 88339B160853982BC61B0F2E5F7CCCEF /* NSDictionary+FZParametersSign.m */; };
+		BFA4FC8CA75DE3A32B2D17715138C932 /* NSDictionary+log.h in Headers */ = {isa = PBXBuildFile; fileRef = 111088B196A5D644735721792608C086 /* NSDictionary+log.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB3E13F57E5BFCD8FB13F856B1E09523 /* RCTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AA386FDEBB0813B2E3AF2C89B7C67E /* RCTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD179A99E4E388692A9A0CB6B377EB90 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = D70B227A11894DE017FA596440142500 /* UINavigationBar+Awesome.m */; };
+		CE2BC1B0FE6FD71055E8EF976ED0E6BF /* NSDictionary+FZParametersSign.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D11CB5877FDFC3D98CD51498F03B779 /* NSDictionary+FZParametersSign.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D6720011215A799E93CCC7E4F68DF3E8 /* RCTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A20D65BAFAF12295C75AFE2830E2DDD /* RCTools-dummy.m */; };
 		DBE698ABBDF2FED2AAD12CC2D76B6B07 /* UIViewController+FZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEA9D4B22CB7C1F73481998019E46C /* UIViewController+FZNavigationBar.m */; };
 		E2742AD2781B455640CFFC6A6A3B308C /* Pods-RCTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF69C9008DDC343F1ACD9F5E791058 /* Pods-RCTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6A633884E8B3E011EB8BDF614C80450 /* UINavigationBar+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC49D24FFCB033CC4C5191F55E393A6 /* UINavigationBar+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E57D57939334D903EFECBF5D35F8B5E7 /* NSObject+instance.h in Headers */ = {isa = PBXBuildFile; fileRef = 642925561643F33DEBA44ADD9705C652 /* NSObject+instance.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EA4EAD99A33936AF0A2972F2E318A69B /* NSObject+instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0BF9A68F87351FB845ABBEFD25420 /* NSObject+instance.m */; };
+		EA6F4A8DD51CC2AEAE55300B42A73332 /* FZButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EEE78692D016FC8EC997ADCC2BB7A0 /* FZButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EE3B591F7586F006F9C2497ECB658D4D /* Pods-RCTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4675329C7B1599EA079D250B27B596 /* Pods-RCTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF1C2456ECCB60C1BD743BEAC20E75CC /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D0D2BBF0962CB297E1261896B7087F /* UINavigationBar+Extension.m */; };
 		EFADE579C76A6041E1073F37A9A46562 /* UITabBar+FZBage.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7A207E417147F6E8A907BAA0ED7 /* UITabBar+FZBage.m */; };
+		F1885773372169AC7296625CC81CD53E /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E5B1BE59E93C952234A7EBC23696B5 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F2F926AD2F4A3CC4877FE6AE99AACD4E /* NSAttributedString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0034E7A23FC2708D6B6A13C2687CF40 /* NSAttributedString+Extension.m */; };
+		FBF5202EC05DF9DA83D6D0405B5E7E67 /* UINavigationBar+Awesome.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D379386AA2F90CF7CFA8B219A3416A /* UINavigationBar+Awesome.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -330,24 +330,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6DF8F225811E59640B27C6D484D7405 /* FZButton.h in Headers */,
-				BA694E9E5B27A186BFBF9BBC5F1E6403 /* FZTextField.h in Headers */,
-				4839E6BBE95D422B9536B35F1B33BAC9 /* NSAttributedString+Extension.h in Headers */,
-				1806713D0FA05142B6FBFD755B6B7132 /* NSDate+Extension.h in Headers */,
-				97EC17299AD7FB57C67F3ECAF9AD46BC /* NSDictionary+FZParametersSign.h in Headers */,
-				5CB4C032F4C8F05C96AC9C8C9F989872 /* NSDictionary+log.h in Headers */,
-				4AC033341D9676EF7590CDD8378AD81D /* NSObject+instance.h in Headers */,
-				B52EA69C90BAE24EC20580CEF68D7F27 /* NSString+Extension.h in Headers */,
+				EA6F4A8DD51CC2AEAE55300B42A73332 /* FZButton.h in Headers */,
+				50A5454D9D84A2A7EB77DCB0A298DFA1 /* FZTextField.h in Headers */,
+				863FCD88D4044437DFC9790643D32D0F /* NSAttributedString+Extension.h in Headers */,
+				122E76A0B8C07C923246F82070015BD8 /* NSDate+Extension.h in Headers */,
+				CE2BC1B0FE6FD71055E8EF976ED0E6BF /* NSDictionary+FZParametersSign.h in Headers */,
+				BFA4FC8CA75DE3A32B2D17715138C932 /* NSDictionary+log.h in Headers */,
+				E57D57939334D903EFECBF5D35F8B5E7 /* NSObject+instance.h in Headers */,
+				9B9BFE3874C43DEE174176421B9CE3A5 /* NSString+Extension.h in Headers */,
 				CB3E13F57E5BFCD8FB13F856B1E09523 /* RCTools-umbrella.h in Headers */,
-				0BB857D066443FAF26B077B6B96967CC /* UIBarButtonItem+FZBarButtonItem.h in Headers */,
-				8D83AF25192534A0234F23A4B86D55C0 /* UICollectionView+FZCategory.h in Headers */,
-				AF6685810C802F55535F3305998105B4 /* UIColor+Extension.h in Headers */,
-				47C565B190E19D9AD16BC7FD0584EC26 /* UINavigationBar+Awesome.h in Headers */,
-				E6A633884E8B3E011EB8BDF614C80450 /* UINavigationBar+Extension.h in Headers */,
-				92515B0701A16E831476480A9A261532 /* UITabBar+FZBage.h in Headers */,
-				1D0C7D36E2D2B3FFC72D755453534686 /* UIView+CornerRadius.h in Headers */,
-				21BC812514DD36768FD08790095611A8 /* UIView+Extension.h in Headers */,
-				69D05108A88CF1EF9C3920B52F58946C /* UIViewController+FZNavigationBar.h in Headers */,
+				1489F4ABF5CFCA250EAD0ADB7A08C8C2 /* UIBarButtonItem+FZBarButtonItem.h in Headers */,
+				31CFC5229C22962327A24478DD35866A /* UICollectionView+FZCategory.h in Headers */,
+				F1885773372169AC7296625CC81CD53E /* UIColor+Extension.h in Headers */,
+				FBF5202EC05DF9DA83D6D0405B5E7E67 /* UINavigationBar+Awesome.h in Headers */,
+				1AFB00F8D69FD2F7AE4DA9B5820C7FB7 /* UINavigationBar+Extension.h in Headers */,
+				82A6A9BDAF68D34B49E3E6EB637D3D4F /* UITabBar+FZBage.h in Headers */,
+				2CECBEB44C46D1756E6256DCF4239E26 /* UIView+CornerRadius.h in Headers */,
+				12B71B1304452DF6DEE0F433643588C1 /* UIView+Extension.h in Headers */,
+				1F88992D353111F9544C85DA4BBD0F15 /* UIViewController+FZNavigationBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
