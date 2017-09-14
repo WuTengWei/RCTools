@@ -1,5 +1,5 @@
 PODS:
-  - RCTools (0.1.3)
+  - RCTools (0.1.4)
 
 DEPENDENCIES:
   - RCTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RCTools: bb7722107cbb44716d6d5df39c9203462a46ccdc
+  RCTools: 885db6ca32daabf6475521ed3764993c2bc0c1be
 
 PODFILE CHECKSUM: ae22ee0fd1736b27787e4d1d61089b7aa5e1e83d
 

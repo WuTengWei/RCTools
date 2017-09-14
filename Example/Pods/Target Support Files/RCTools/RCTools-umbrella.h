@@ -10,9 +10,13 @@
 #endif
 #endif
 
+#import "NSAttributedString+RCExtention.h"
+#import "NSDate+RCExtention.h"
 #import "NSDictionary+log.h"
 #import "NSObject+RCInstance.h"
 #import "RCTools.h"
+#import "UIColor+RCExtension.h"
+#import "UIImage+RCExtention.h"
 #import "UIView+RCExtension.h"
 
 FOUNDATION_EXPORT double RCToolsVersionNumber;
