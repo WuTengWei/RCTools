@@ -91,4 +91,7 @@
     keyChainDeleteQueryMutableDictionary = nil ;
 }
 
+//获取uuid
+//CFUUIDRef uuidRef = CFUUIDCreate(kCFAllocatorDefault);
+//NSString *uuid = (NSString *)CFBridgingRelease(CFUUIDCreateString (kCFAllocatorDefault,uuidRef));
 @end
